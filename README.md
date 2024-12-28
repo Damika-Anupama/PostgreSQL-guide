@@ -12,3 +12,5 @@
 4. [Combining Queries](4_Combining_Queries.md)
 5. [Sorting Rows](5_Sorting_Rows.md)
 6. [LIMIT AND OFFSET](6_LIMIT_AND_OFFSET.md)
+7. [VALUES Lists](7_VALUES_Lists.md)
+8. [WITH Queries](8_WITH_Queries.md)
