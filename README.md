@@ -1,17 +1,30 @@
-## 📚 **Optimizing Queries with PostgreSQL - Part 1**
+### 📚 **Optimizing Queries with PostgreSQL - Part 1**
 
 ### 🔗 **Additional Resources**
 
-- [PostgreSQL Documentation: Queries](https://www.postgresql.org/docs/current/queries.html)  
+- [PostgreSQL Documentation: Queries Overview](https://www.postgresql.org/docs/current/queries-overview.html)  
 - [Online Playground for Practice](https://pgplayground.com/)
 
-### **1. Overview**
+---
+
+## 📑 **Table of Contents**
+
+1. [Overview](#overview)  
+   - [General Syntax of SELECT](#general-syntax-of-select)  
+   - [Simple Query Example](#simple-query-example)  
+   - [Selecting Specific Columns and Calculations](#selecting-specific-columns-and-calculations)  
+   - [Using SELECT Without a Table](#using-select-without-a-table)  
+   - [Using Functions in SELECT](#using-functions-in-select)  
+
+---
+
+## 📖 **Overview**
 
 In PostgreSQL, retrieving data from a database is achieved using **queries**. The primary SQL command for querying data is `SELECT`.
 
 ---
 
-### 📖 **1.1 General Syntax of SELECT**
+### 📖 **General Syntax of SELECT**
 
 ```sql
 [WITH with_queries] SELECT select_list FROM table_expression [sort_specification];
@@ -24,7 +37,7 @@ In PostgreSQL, retrieving data from a database is achieved using **queries**. Th
 
 ---
 
-### 🛠️ **1.2 Simple Query Example**
+### 🛠️ **Simple Query Example**
 
 The simplest way to query a table:
 
@@ -60,7 +73,7 @@ SELECT * FROM table1;
 
 ---
 
-### 🛠️ **1.3 Selecting Specific Columns and Calculations**
+### 🛠️ **Selecting Specific Columns and Calculations**
 
 You can query **specific columns** or use expressions:
 
@@ -83,7 +96,7 @@ SELECT a, b + c AS sum FROM table1;
 
 ---
 
-### 🛠️ **1.4 Using SELECT Without a Table**
+### 🛠️ **Using SELECT Without a Table**
 
 The `SELECT` statement can also be used as a **calculator**:
 
@@ -102,7 +115,7 @@ This approach can be useful for quick calculations or inline expressions.
 
 ---
 
-### 🛠️ **1.5 Using Functions in SELECT**
+### 🛠️ **Using Functions in SELECT**
 
 You can call **functions** directly using `SELECT`:
 
@@ -120,3 +133,4 @@ SELECT random();
 ```
 
 ---
+- [🔼 Back to Top](#optimizing-queries-with-postgresql---part-1)  
