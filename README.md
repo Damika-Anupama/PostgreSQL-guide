@@ -9,6 +9,8 @@
 
 In PostgreSQL, retrieving data from a database is achieved using **queries**. The primary SQL command for querying data is SELECT.
 
+---
+
 ### 📖 **1.1 General Syntax of SELECT**
 
 sql
@@ -21,6 +23,7 @@ sql
 - **FROM table_expression**: Defines the source table(s).  
 - **sort_specification**: Determines the order of the result set (ORDER BY).  
 
+---
 
 ### 🛠️ **1.2 Simple Query Example**
 
@@ -59,6 +62,7 @@ a | b | c
 
 
 
+---
 
 ### 🛠️ **1.3 Selecting Specific Columns and Calculations**
 
@@ -83,6 +87,7 @@ a | sum
 
 
 
+---
 
 ### 🛠️ **1.4 Using SELECT Without a Table**
 
@@ -103,6 +108,7 @@ SELECT 3 * 4;
 
 This approach can be useful for quick calculations or inline expressions.
 
+---
 
 ### 🛠️ **1.5 Using Functions in SELECT**
 
