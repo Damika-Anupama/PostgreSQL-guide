@@ -374,7 +374,7 @@ WHERE salary > (SELECT AVG(salary) FROM employees);
 | 2  | Bob  | IT        | 7000   |
 
 
-### 🛠️ **Example 5: WHERE with BETWEEN and IN**
+### 🛠️ **Example 5: WHERE with BETWEEN, AND**
 
 #### **Input:**
 ```sql
@@ -473,51 +473,13 @@ Advanced grouping strategies in PostgreSQL:
 
 ### 🛠️ **Example 1: GROUPING SETS**
 
+Useful when we need to aggregate data in different ways simultaneously. The example query groups the `employees` table by `department` and also provides a grand total. The output includes the sum of salaries for each department and a row with the overall total salary.
+
 #### **Input:**
 ```sql
 SELECT department, SUM(salary)
 FROM employees
 GROUP BY GROUPING SETS ((department), ());
-```
-
-#### **Output:**
-| department | sum |
-|-----------|-----|
-| HR        | 5000|
-| IT        | 7000|
-| Finance   | 6000|
-| NULL      | 18000|
-
-
-### 🛠️ **Example 2: ROLLUP**
-
-Hierarchical totals.
-
-#### **Input:**
-```sql
-SELECT department, SUM(salary)
-FROM employees
-GROUP BY ROLLUP(department);
-```
-
-#### **Output:**
-| department | sum |
-|-----------|-----|
-| HR        | 5000|
-| IT        | 7000|
-| Finance   | 6000|
-| NULL      | 18000|
-
-
-### 🛠️ **Example 3: CUBE**
-
-All combinations of department and salary totals.
-
-#### **Input:**
-```sql
-SELECT department, SUM(salary)
-FROM employees
-GROUP BY CUBE(department);
 ```
 
 #### **Output:**
