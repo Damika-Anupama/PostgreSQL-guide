@@ -70,7 +70,7 @@ Joins combine rows from two or more tables. Common types of joins:
 5. **FULL JOIN**  
 
 ### 🛠️ **Example: CROSS JOIN**
-![cross join](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.javatpoint.com%2Fpostgresql-cross-join&psig=AOvVaw2A_j8qb_TyuGLoZLZvGg1J&ust=1735468821316000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjMzeyjyooDFQAAAAAdAAAAABAE)
+![cross join](https://images.javatpoint.com/postgre/images/postgresql-cross-join.png)
 
 #### **Input:**
 
@@ -126,7 +126,7 @@ CROSS JOIN departments d;
 
 ### 🛠️ **Example: INNER JOIN**
 
-![inner join](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alphacodingskills.com%2Fpostgresql%2Fnotes%2Fpostgresql-keyword-inner-join.php&psig=AOvVaw00kYM5wzDCvgNqwSGy8UP3&ust=1735469035749000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKDhzo2kyooDFQAAAAAdAAAAABAJ)
+![inner join](https://www.alphacodingskills.com/postgresql/img/postgresql-inner-join.PNG)
 
 #### **Input:**
 
@@ -148,7 +148,7 @@ INNER JOIN departments d ON e.department = d.name;
 
 ### 🛠️ **Example: LEFT JOIN**
 
-![left join](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alphacodingskills.com%2Fpostgresql%2Fnotes%2Fpostgresql-keyword-left-join.php&psig=AOvVaw3)
+![left join](https://www.alphacodingskills.com/postgresql/img/postgresql-left-join.PNG)
 
 #### **Input:**
 
@@ -168,7 +168,7 @@ LEFT JOIN departments d ON e.department = d.name;
 
 ### 🛠️ **Example: RIGHT JOIN**
 
-![right join](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alphacodingskills.com%2Fpostgresql%2Fnotes%2Fpostgresql-keyword-right-outer-join.php&psig=AOvVaw3B-RbGNDDASX8oftu1BzUe&ust=1735469757318000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJi_2eSmyooDFQAAAAAdAAAAABAE)
+![right join](https://www.alphacodingskills.com/postgresql/img/postgresql-right-outer-join.PNG)
 
 #### **Input:**
 
@@ -188,7 +188,7 @@ RIGHT JOIN departments d ON e.department = d.name;
 
 ### 🛠️ **Example: FULL JOIN**
 
-![full join](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alphacodingskills.com%2Fpostgresql%2Fpostgresql-full-join.php&psig=AOvVaw24FALML4G1xJmEup4ANVzY&ust=1735469790594000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDI_PSmyooDFQAAAAAdAAAAABAE)
+![full join](https://www.alphacodingskills.com/postgresql/img/postgresql-full-join.PNG)
 
 #### **Input:**
 
