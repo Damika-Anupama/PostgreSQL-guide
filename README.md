@@ -2,7 +2,7 @@
 
 ### 🔗 **Additional Resources**
 
-- [PostgreSQL Documentation: Queries Overview](https://www.postgresql.org/docs/current/queries-overview.html)  
+- [PostgreSQL Documentation: Queries](https://www.postgresql.org/docs/current/queries.html)  
 - [Online Playground for Practice](https://pgplayground.com/)
 
 ### **1. Overview**
